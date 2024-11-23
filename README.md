@@ -1,13 +1,15 @@
 # Sistema de Cadastro de Pedidos
 
-Este é um sistema de cadastro de pedidos desenvolvido em **Java**. O objetivo é gerenciar pedidos, incluindo cadastro de novos pedidos, alteração de status, e consulta dos pedidos por status.
+Este é um **sistema simples de cadastro de pedidos** desenvolvido em **Java**. O objetivo principal é gerenciar pedidos, permitindo o cadastro de novos pedidos, alteração de status e consulta de pedidos por status. O sistema está em desenvolvimento e tem como finalidade ajudar no processo de aprendizado e crescimento como desenvolvedor. 
+
+**Nota**: O sistema não utiliza banco de dados, os dados são armazenados temporariamente em memória (lista).
 
 ## Funcionalidades
 
 - **Cadastrar Pedido**: Permite cadastrar um novo pedido com informações como nome do cliente, tipo de serviço e data de entrega.
-- **Alterar Status do Pedido**: Altera o status de um pedido existente.
-- **Consultar Pedidos por Status**: Consulta os pedidos filtrados por um status específico (ex: "Em andamento", "Concluído").
-- **Listar Todos os Pedidos**: Exibe todos os pedidos cadastrados.
+- **Alterar Status do Pedido**: Altera o status de um pedido existente (ex: "Em andamento", "Concluído", "Entregue").
+- **Consultar Pedidos por Status**: Consulta os pedidos filtrados por um status específico.
+- **Listar Todos os Pedidos**: Exibe todos os pedidos cadastrados no sistema.
 
 ## Tecnologias Utilizadas
 
@@ -30,4 +32,5 @@ Este é um sistema de cadastro de pedidos desenvolvido em **Java**. O objetivo �
    Abra o terminal e execute o comando:
 
    ```bash
+  
    git clone https://github.com/LeandroBryto/sistema-cadastro-pedidos.git
